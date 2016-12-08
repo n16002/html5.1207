@@ -1,0 +1,17 @@
+/* 
+円形グラデーション
+*/
+div{
+	width: 200px;
+	height:  200px;
+	/*backgroud-image:
+	radial-gradient(skyblue, blue);
+	backround-image:
+	radial-gradient(at 30px 40px, skyblue, blue);
+	background-image:
+	readial-gradient(ellipse 20px 30px at 30px 40px, skyblue,blue);*/
+	background-image:
+	repeating-radial-gradient(skyblue,blue 20px)
+
+;
+}
